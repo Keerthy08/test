@@ -32,4 +32,3 @@ Jobs:
         LATEST_TAG=${{ github.sha }}:latest
         docker push $IMAGE_TAG
         docker push $LATEST_TAG       
-        
